@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    background-color: #000;
+}
+.chat{
+    width: 75%;
+    height: 700px;
+    background: rgb(0, 255, 106);
+    margin: 25px auto;
+    display: flex;
+    border: solid;
+    border-radius: 50px;
+}
+section .chat_container{
+    background-color: #194edb;
+    width: 40%;
+    height: 90%;
+    margin: auto;
+    border: 5px solid black ;
+    border-radius: 15px;
+}
+section .chat_container .chat_ms{
+    background-color: #fff;
+    width: 95%;
+    height: 85%;
+    margin: 15px auto;
+    border: 2px solid black ;
+    border-radius: 15px;
+}
+section .chat_container .chat_ms_send{
+    background-color: #194edb;
+    display:flex;
+    justify-content: center;
+}
+section .chat_container .chat_ms_send input{
+    display:flex;
+    justify-content: center;
+    width: 90%;
+    height: 35px;
+    border: 2px solid black ;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+@media (max-width: 1024px){
+    .chat{
+        width: 95%;
+    }
+}
+@media (max-width: 770px){
+    .chat{
+        margin: 25px auto;
+        width: 95%;
+        height: 600px;
+        border-radius: 20px;
+    }
+    section .chat_container{
+        width: 47%;
+    }   
+    
+}
+
+@media (max-width: 758px){
+    .chat{
+        margin: 3px auto;
+        width: 95%;
+        height: 300px;
+        border-radius: 20px;
+    }
+    section .chat_container .chat_ms{
+        height: 70%;
+    }   
+}
+@media (max-width: 370px){
+    .chat{
+        width: 0%;
+        height: 0px;
+        background: #000;
+    }
+    section .chat_container{
+        background-color: #000;
+        width: 0%;
+        height: 0%;
+    }
+    section .chat_container .chat_ms{
+        background-color: #000;
+        width: 0%;
+        height: 0%;
+    }
+    section .chat_container .chat_ms_send{
+        background-color: #000;
+    }
+    section .chat_container .chat_ms_send input{
+        display:flex;
+        justify-content: center;
+        width: 0%;
+        height: 0px;
+        background-color: #000;
+    }
+    .mensaje-container{
+        width: 70%;
+        margin: 200px auto 0;
+        font-size: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: chartreuse;
+        text-align: center;
+    }
+}
